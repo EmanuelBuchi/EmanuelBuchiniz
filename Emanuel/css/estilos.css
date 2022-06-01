@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: helvetica;
+    src: url(../fuentes/HelveticaNeueLTStd-Bd.otf);
+    font-weight: 400;
+
+}
+@font-face {
+    font-family: helvetica;
+    src: url(../fuentes/HelveticaNeueLTStd-Roman.otf);
+    font-weight: 200;
+
+}
+
+
+body {
+    font-family: helvetica;
+}
+
+
+h1 {
+    font-size:7em;
+    font-weight: 400;
+
+}
+
+
+p {
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+a{
+    font-weight: 200;
+    font-size: 0.7em;
+    color: black;  
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+/* Adaptación a telefono*/
+
+@media (max-width: 768px) {
+    body { font-size: 50%;}
+}
