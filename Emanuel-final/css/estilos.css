@@ -1,0 +1,100 @@
+
+@font-face {
+    font-family: helvetica;
+    src: url(../fuentes/HelveticaNeueLTStd-Bd.otf);
+    font-weight: 400;
+
+}
+@font-face {
+    font-family: helvetica;
+    src: url(../fuentes/HelveticaNeueLTStd-Roman.otf);
+    font-weight: 200;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: helvetica;
+}
+
+header{
+    width: 100%;
+    display: flex;
+}
+
+.columna1{
+    width: 93%;
+
+}
+.columna2{
+    width: 7%;
+    text-align: left;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size:7em;
+    font-weight: 400;
+
+}
+
+
+p {
+    font-size: 1.5em;
+    font-weight: 200;
+
+    margin-top: -4em;
+    margin-left: 3em;
+}
+
+a{
+    font-weight: 200;
+    font-size: 0.8em;
+    color: black;
+    
+
+}
+
+.luz{
+    width: 2%;
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    
+}
+
+a:hover{
+    color: blue;
+}
+
+.emanuel{
+    margin-top: 1.3em;
+    margin-left:0.2em;
+}
+.buchiniz{
+    margin-top: -0.9em;
+    margin-left: 0.6em;
+}
+
+.galeria{
+    margin-left: -1em;
+    margin-top: 6em;
+    display: flex;
+}
+
+.redes{
+    position: absolute;
+    top: 95%;
+    left: 93%;
+}
+
+/* Adaptación a telefono*/
+
+@media (max-width: 768px) {
+    body { font-size: 50%;}
+}
